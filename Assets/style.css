@@ -13,6 +13,10 @@ textarea {
   padding: 10px;
 }
 
+.input-group {
+  height: 60px;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -37,23 +41,24 @@ textarea {
 }
 
 .hour {
+  width: 50px;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: rgb(172, 172, 172);
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: rgba(47, 255, 238, 0.808);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: rgba(119, 221, 119, 0.801);
   color: white;
 }
 
@@ -65,7 +70,7 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
